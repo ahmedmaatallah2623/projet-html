@@ -1,35 +1,72 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>contact</title>
-</head>
-<body>
-   <center><h1>Welcome to the contact page:</h1></center>
-  <h1> Please write all your personal information here:</h1>
-   <form method="post" action="traitement.php"></form>
-<label>name</label>
-<input type="text" name="name">
-<label>forename</label>
-<input type="text" name="forename"><br>
-<label>number</label>
-<input type="text" number="number">
-<label>address</label>
-<input type="text" adresse="address"><br>
-<label>E-Mail</label>
-<input type="text" email="E-Mail"><br>
-<label>SEX:</label><br>
-<select name="SEX">
-<option value="MAN">MAN</option>
-<option value="WOMEN">WOMEN</option>
-<option value="other">other</option>
-</select><br>
-<br><label>commentaire</label><br>
-    <textarea rows="10" cols="50"></textarea> 
-    <br><input type="submit" name="send"><br>
-<img src="image/gmail-google-logo-email-computer-icons-gmail-c5b55d04be081fff14f483d6f6b118f2.png" alt="gmail"width="400" height="400">
-<img src="image/computer-icons-form-others-4c3824640cd716b89bbd73385164aeac.png" alt="form" width="400" height="400">
+    <link rel="stylesheet" href="test.css" />
+  </head>
+  <body>
+    <center><h1>Welcome to the contact page:</h1></center>
 
-</body>
+    <header class="test2">
+      <nav class="box">
+        <p><a href="home.html">home </a></p>
+        <p><a href="about.html">about </a></p>
+        <p><a href="home.html">work </a></p>
+        <p><a href="home.html"> resume</a></p>
+        <p><a href="contact.html">contact </a></p>
+      </nav>
+    </header>
+
+    <h1 class="home1">Please write all your personal information here:</h1>
+  
+       
+  <label>name</label>
+   <input type="text" name="name" /><br>
+
+
+
+    <label>forename</labe>
+  <input type="text" name="forename"/><br>
+
+
+    <label>number</label>
+    <input type="text" number="number" /><br>
+    <label>address</label>
+    <input type="text" adresse="address" /><br />
+    <label>E-Mail</label>
+    <input type="email" email="E-Mail"/><br>
+    <label for="date of birth">date of birth</label>
+    <input type="datetime-local"><br>
+    <label>SEX:</label><br />
+    <select name="SEX">
+      <option value="MAN">MAN</option>
+      <option value="WOMEN">WOMEN</option>
+      <option value="other">other</option></select
+    ><br />
+    <br /><label>commentaire</label><br />
+    <textarea rows="10" cols="50"></textarea>
+
+<form action="welcome.html" method="post">
+   <table>
+        <tr>
+      <td><input type="submit" value="Envoyer" /></td>
+      <td><input type="reset" value="Annuler" /></td>
+    </tr>
+    </table>
+    <img
+      src="image/gmail-google-logo-email-computer-icons-gmail-c5b55d04be081fff14f483d6f6b118f2.png"
+      alt="gmail"
+      width="400"
+      height="400"
+    />
+    <img
+      src="image/computer-icons-form-others-4c3824640cd716b89bbd73385164aeac.png"
+      alt="form"
+      width="400"
+      height="400"
+    />
+   
+  </body>
 </html>

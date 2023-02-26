@@ -1,0 +1,13 @@
+body {
+  background-color: rgba(102, 51, 153, 0.699);
+}
+
+.container {
+  max-width: 1000px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */
