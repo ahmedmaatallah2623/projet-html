@@ -23,15 +23,12 @@ html {
 }
 
 .test1 {
-  color: var(--secondarycolor);
+  color: aquamarine;
   font-size: 50px;
 }
 
-body {
-  background-color: rgba(0, 0, 0, 0.778);
-}
 .home1 {
-  color: rgba(0, 255, 4, 0.718);
+  color: darkgoldenrod;
 }
 nav {
   padding-top: 2.8rem;
@@ -42,42 +39,23 @@ nav {
   align-items: center;
 }
 
-nav ul li {
-  list-style-type: none;
-  display: inline-block;
-  margin: 0rem 1.5rem;
-}
-
-nav ul li a {
-  color: var(--lightcolor);
-  text-decoration: none;
-  text-transform: capitalize;
-}
 h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: rgba(255, 0, 0, 0.741);
+  color: #98dfd6;
 }
 .test5 {
   color: aqua;
 }
 
-.box p {
-  display: flex;
-  justify-content: space-around;
-  padding: 20px 40px;
-  border-style: solid;
-  border-radius: 20%;
-  background-color: aqua;
-}
 table {
-  background-color: rgba(102, 51, 153, 0.815);
-  color: #ffffff;
+  background-color: white;
+  color:black ;
 }
 input {
   background-color: rgba(255, 255, 255, 0.57);
 }
 label {
-  color: mediumseagreen;
+  color: white;
 }
 textarea {
   background-color: rgba(255, 255, 255, 0.57);
@@ -88,4 +66,124 @@ select {
 .test23 {
   color: #f7bcf7;
   text-align: center;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.833);
+  color: white;
+}
+
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #BFBCA6;
+  #04aa6d
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+body {
+  background-color: #3b29f2;
+}
+#3c2a21 h1 {
+  color: black;
+}
+
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type="text"],
+input[type="password"] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+.test55 {
+  background-color: #1a120b;
+  height: 100;
+}
+.header {
+  padding: 20px;
+  text-align: right;
+  background: white;
+  color: white;
+  font-size: 30px;
+}
+#8b9a46 a {
+  color: #191a19;
+}
+.zz {
+  color: white;
+}
+.test11 {
+  background-color: black;
+  height: 50;
+}
+.hi {
+  color: #f1f1f1;
+}
+.bo7mid {
+  text-align: center;
+}
+.psw {
+  color: #171a1c;
+}
+.hello {
+  display: flex;
+  justify-content: flex-end;
+}
+.cc {
+  background-color: rgba(0, 0, 0, 0.833);
+}
+a {
+  color: darkcyan;
+}
+.content {
+  width: 100%;
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: blue;
 }

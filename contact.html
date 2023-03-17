@@ -4,39 +4,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>contact</title>
-    <link rel="stylesheet" href="test.css" />
-  </head>
-  <body>
-    <center><h1>Welcome to the contact page:</h1></center>
+    <link rel="icon" href="icons/courses_letters_blackboard_board_staff_book_1475.ico">
+    <link rel="stylesheet" href="test.css">
+  <body >
+    <div class="test11">
+    <h1 class="zz" style="text-align: center; height: 1px;" >Welcome to the contact page</h1>
+    </div>
+    <img 
+    class="hello"
+  src="image/computer-icons-form-others-4c3824640cd716b89bbd73385164aeac.png"
+  alt="form"
+  width="200"
+  height="200" style="display: flex;justify-content: right;"
+/>
+    
 
-    <header class="test2">
-      <nav class="box">
-        <p><a href="home.html">home </a></p>
-        <p><a href="about.html">about </a></p>
-        <p><a href="home.html">work </a></p>
-        <p><a href="home.html"> resume</a></p>
-        <p><a href="contact.html">contact </a></p>
-      </nav>
-    </header>
 
-    <h1 class="home1">Please write all your personal information here:</h1>
+   <center><h1 class="home1">Please write all your personal information here:</h1></center> 
   
-       
-  <label>name</label>
-   <input type="text" name="name" /><br>
+  <div class="bo7mid">
+    <div class="container">
+      <label>name</label>
+      <input type="text" placeholder="Enter your name" name="name" required/><br>
+   
+   
+   
+       <label>last name</labe>
+     <input type="text" placeholder="Enter your last name" name="last name" required/><br>
 
 
 
-    <label>forename</labe>
-  <input type="text" name="forename"/><br>
-
-
-    <label>number</label>
-    <input type="text" number="number" /><br>
+     <label>number</label>
+    <input type="text" placeholder="Enter your number" number="number" required/><br>
     <label>address</label>
-    <input type="text" adresse="address" /><br />
-    <label>E-Mail</label>
-    <input type="email" email="E-Mail"/><br>
+    <input type="text" placeholder="Enter your address" adresse="address" required/><br />
+    
     <label for="date of birth">date of birth</label>
     <input type="datetime-local"><br>
     <label>SEX:</label><br />
@@ -45,28 +47,63 @@
       <option value="WOMEN">WOMEN</option>
       <option value="other">other</option></select
     ><br />
-    <br /><label>commentaire</label><br />
+   
+      <label for="uname"><b>email</b></label>
+      <input
+        type="text"
+        placeholder="Enter your email"
+        name="email"
+        required
+      />
+      <br />
+      <label for="psw"><b>Password</b></label>
+      <input
+        type="password"
+        placeholder="Enter Password"
+        name="psw"
+        required
+      />
+      <br /><label>commentaire</label><br />
     <textarea rows="10" cols="50"></textarea>
+      <br />
+   
+      
+    
+      
+      <button  type="submit" ><a href="welcome.html" target="_blank">submit</a></button>
+    </div>
+      <label>
+    
+        <input type="checkbox" checked="checked" name="remember" /> Remember
+        me
+      </label>
+    </div>
+    
 
-<form action="welcome.html" method="post">
-   <table>
-        <tr>
-      <td><input type="submit" value="Envoyer" /></td>
-      <td><input type="reset" value="Annuler" /></td>
-    </tr>
-    </table>
-    <img
-      src="image/gmail-google-logo-email-computer-icons-gmail-c5b55d04be081fff14f483d6f6b118f2.png"
-      alt="gmail"
-      width="400"
-      height="400"
-    />
-    <img
-      src="image/computer-icons-form-others-4c3824640cd716b89bbd73385164aeac.png"
-      alt="form"
-      width="400"
-      height="400"
-    />
+    <div class="container" style="background-color: #f1f1f1">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+
+
+
+
+       
+  
+
+  <img 
+  src="image/gmail-google-logo-email-computer-icons-gmail-c5b55d04be081fff14f483d6f6b118f2.png"
+  alt="gmail"
+  width="200"
+  height="200"
+/>
+
+
+
+   
+    
+   
    
   </body>
 </html>
